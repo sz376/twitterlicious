@@ -1,0 +1,22 @@
+h1 {
+    font-family: Helvetica Neue;
+    text-align:center;
+    background-color: white;
+}
+
+body {
+    font-family: Helvetica Neue;
+    background-color: #fffdd0;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+
+h6 span {
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    color: white;
+    background-color: #00acee; 
+}

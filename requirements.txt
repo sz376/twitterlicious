@@ -1,0 +1,6 @@
+Flask
+tweepy
+python-dotenv
+spoonacular
+python-dotenv
+requests

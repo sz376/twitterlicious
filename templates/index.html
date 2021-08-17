@@ -1,0 +1,23 @@
+
+<!DOCTYPE html> 
+
+<html> 
+    <head>
+        <link rel="stylesheet" href={{ url_for('static', filename='style.css') }} />
+    </head>
+    <body> </body>
+    <h1> {{ food }} </h1>
+    <img src={{ imageURL }} align="right"></img>
+    <ol> 
+    <h2> Yields {{ yields }} servings. </h2>
+    <h2> Ready in {{ ready }} minutes. </h2>
+    <h3>Ingredients: </h3>
+    {% for ingredient in ingredients %}
+        <li>{{ ingredient }}</li>
+    {% endfor %}
+    <h4>Check out recipe: <a href={{ sourceURL }}>{{ sourceURL }}</a></h4>
+    <br>
+    <h5>Heres what people are saying about {{ original }} on Twitter!:</h5>
+    <h6><span>{{ tweet.user.screen_name }}:<br>{{ tweet.text }}<br>{{ tweet.created_at }}</span></h6>
+    </ol> 
+</html> 
