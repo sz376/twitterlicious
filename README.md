@@ -18,7 +18,7 @@ python-dotenv v0.14.0
 2. Click on the key symbol after creating your project, and it will take you to your keys and tokens.
 3. Sign up for the spoonacular api at [https://spoonacular.com/food-api](https://spoonacular.com/food-api)
 4. Click on the "My Console" button and then the "Profile" tab to access your spoonacular api key.
-5. Clone this repository by using git clone https://github.com/NJIT-CS490/project1-sz376
+5. Clone this repository by using git clone https://github.com/sz376/twitterlicious
 6. In your local copy of this repository, create a new root-level file called tweepy.env
 7. Add the following line in tweepy.env, and then save tweepy.env
 
@@ -39,8 +39,6 @@ SPOONACULAR_API='TODO'
 10. Install python-dotenv using the same process as above ([sudo] pip[3] install python-dotenv)
 11. Install spoonacular using the same process as above ([sudo] pip[3] install spoonacular)
 12. Run `python proj1.py`
-13. If on Cloud9, preview templates/index.html
-14. Heroku page availble at [https://quiet-reaches-99426.herokuapp.com/](https://quiet-reaches-99426.herokuapp.com/)
 
 The script will run until aborted.
 
